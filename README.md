@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:00ccee,100:ffcc00&height=200&section=header&text=Abd-Abdullah&fontSize=60&fontFamily=Cinzel&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=C%2B%2B%20Developer%20%C2%B7%20OOP%20%C2%B7%20SFML%20%C2%B7%20Systems%20%26%20Game%20Dev&descAlignY=58&descSize=16&descColor=aaddee"/>
-
-</div>
+<h1>Abdullah</h1>
+<h3>⚙️ C++ Developer &nbsp;·&nbsp; OOP &nbsp;·&nbsp; SFML &nbsp;·&nbsp; Systems & Game Dev</h3></div>
 
 <div align="center">
 
@@ -21,7 +20,7 @@
 ```cpp
 class Developer {
 public:
-    const string name      = "Abd-Abdullah";
+    const string name      = "Abdullah";
     const string uni       = "FAST NUCES — Lahore, Pakistan";
     const string focus[]   = { "OOP", "Algorithms", "SFML", "Data Analysis" };
     const string passion   = "Turning complex logic into working systems";
@@ -110,7 +109,7 @@ public:
 
 <div align="center">
 
-[![Chess Animation Preview](chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
+[![Chess Animation Preview](https://raw.githubusercontent.com/Abd-Abdullah83/Abd-Abdullah83/main/chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
 
 </div>
 
@@ -138,9 +137,15 @@ public:
 
 <div align="center">
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Abd-Abdullah83&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<div align="center">
+
+![Repos](https://img.shields.io/badge/Repositories-5+-00ccee?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a)
+![Language](https://img.shields.io/badge/Primary_Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0a0f1a)
+![Focus](https://img.shields.io/badge/Focus-OOP_%26_Systems-ffcc00?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![AI](https://img.shields.io/badge/AI-Minimax_Alpha--Beta-9B59B6?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![University](https://img.shields.io/badge/FAST-NUCES_Lahore-ee3333?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
 
 </div>
 
@@ -158,7 +163,7 @@ public:
 
 <div align="center">
 
-## 💬 Lets Connect
+## 💬Lets Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-Abd--Abdullah83-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abd-Abdullah83)
 [![FAST NUCES](https://img.shields.io/badge/University-FAST_NUCES_Lahore-00599C?style=for-the-badge&logo=graduation-cap&logoColor=white)](https://www.nu.edu.pk)
@@ -169,6 +174,8 @@ public:
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffcc00,50:00ccee,100:0a0f1a&height=120&section=footer"/>
+<br>
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=0a0f1a&color=00ccee)
 
 </div>
