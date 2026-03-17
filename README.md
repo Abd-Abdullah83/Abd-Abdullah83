@@ -110,7 +110,7 @@ public:
 
 <div align="center">
 
-[![Chess Animation Preview](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
+[![Chess Animation Preview](chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
 
 </div>
 
@@ -158,7 +158,7 @@ public:
 
 <div align="center">
 
-## 💬 Connect
+## 💬 Lets Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-Abd--Abdullah83-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abd-Abdullah83)
 [![FAST NUCES](https://img.shields.io/badge/University-FAST_NUCES_Lahore-00599C?style=for-the-badge&logo=graduation-cap&logoColor=white)](https://www.nu.edu.pk)
