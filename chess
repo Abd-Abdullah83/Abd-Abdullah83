@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Underdog — Abd-Abdullah83</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#04060a;--card:#080d14;--border:#0d1c2a;--border2:#1a3040;
+  --cyan:#00ccee;--gold:#ffcc00;--red:#ee3333;--green:#00ee77;
+  --dim:#1a3a4a;--text:#c0dde8;--muted:#2a4a5a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);min-height:100vh;display:flex;flex-direction:column;align-items:center;font-family:'Crimson Pro',Georgia,serif;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:repeating-conic-gradient(rgba(0,180,220,.022) 0% 25%,transparent 0% 50%);background-size:80px 80px;pointer-events:none;z-index:0}
+
+.hdr{width:100%;text-align:center;padding:44px 20px 18px;position:relative;z-index:2}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.4em;color:var(--dim);text-transform:uppercase;margin-bottom:14px}
+.title{font-family:'Cinzel',serif;font-size:clamp(2.2rem,6vw,4rem);font-weight:900;letter-spacing:.14em;color:var(--gold);text-shadow:0 0 80px rgba(255,204,0,.18);line-height:1;margin-bottom:10px}
+.subtitle{font-family:'Crimson Pro',serif;font-style:italic;font-weight:300;font-size:1.05rem;color:var(--muted)}
+
+.prog-wrap{width:100%;max-width:860px;padding:14px 20px 0;z-index:2;position:relative}
+.prog-track{height:1px;background:var(--border2);border-radius:1px}
+.prog-fill{height:100%;background:linear-gradient(90deg,var(--cyan),var(--gold));border-radius:1px;width:0%;transition:width .15s linear}
+
+.stage{display:flex;gap:20px;align-items:flex-start;justify-content:center;padding:20px 20px 10px;flex-wrap:wrap;position:relative;z-index:2;width:100%;max-width:860px}
+
+#board{display:block;border-radius:6px;border:1px solid var(--border2);box-shadow:0 0 60px rgba(0,180,220,.06)}
+
+.sidebar{width:240px;display:flex;flex-direction:column;gap:10px;flex-shrink:0}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.phdr{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.22em;color:var(--dim);text-transform:uppercase;padding:8px 12px 6px;border-bottom:1px solid var(--border)}
+
+.vs-row{display:flex;align-items:center;gap:8px;padding:10px 12px}
+.vs-side{flex:1;text-align:center}
+.vs-glyphs{font-size:17px;line-height:1;margin-bottom:3px}
+.vs-lbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;text-transform:uppercase}
+.vs-lbl.w{color:var(--cyan)}.vs-lbl.b{color:var(--red)}
+.vs-div{font-family:'Cinzel',serif;font-size:10px;color:var(--dim);padding:0 4px}
+
+.log-box{padding:8px 12px;min-height:190px;display:flex;flex-direction:column;gap:3px}
+.le{font-family:'JetBrains Mono',monospace;font-size:9.5px;padding:4px 8px;border-radius:3px;border-left:2px solid;opacity:0;transform:translateX(5px);transition:opacity .28s,transform .28s;line-height:1.5}
+.le.show{opacity:1;transform:none}
+.le-w{border-color:var(--cyan);background:rgba(0,200,238,.05);color:var(--cyan)}
+.le-b{border-color:var(--red);background:rgba(238,50,50,.05);color:#f07070}
+.le-y{border-color:var(--gold);background:rgba(255,200,0,.05);color:var(--gold)}
+.le-g{border-color:var(--green);background:rgba(0,238,110,.05);color:var(--green)}
+.le-d{border-color:var(--border2);background:transparent;color:var(--muted)}
+
+.status-wrap{padding:10px 12px;text-align:center}
+.s-lbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin-bottom:4px}
+.s-val{font-family:'Cinzel',serif;font-size:14px;letter-spacing:.06em;color:var(--cyan);min-height:20px;transition:color .3s}
+
+.narr{width:100%;max-width:860px;padding:6px 20px 10px;position:relative;z-index:2;text-align:center}
+.narr-txt{font-family:'Crimson Pro',serif;font-style:italic;font-weight:300;font-size:1rem;color:var(--dim);min-height:26px;transition:color .5s;letter-spacing:.03em}
+.narr-txt.lit{color:var(--gold)}
+
+.replay{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;padding:7px 20px;border:1px solid var(--border2);border-radius:4px;background:transparent;color:var(--dim);cursor:pointer;margin:4px auto 20px;display:block;transition:border-color .2s,color .2s;position:relative;z-index:2}
+.replay:hover{border-color:var(--cyan);color:var(--cyan)}
+
+.footer-quote{width:100%;max-width:860px;padding:4px 20px 36px;text-align:center;position:relative;z-index:2}
+.footer-quote p{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.1em;color:var(--border2);font-style:normal}
+.footer-quote p span{color:var(--dim)}
+
+@media(max-width:580px){
+  .stage{flex-direction:column;align-items:center}
+  .sidebar{width:100%;max-width:340px}
+}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="eyebrow">Abd-Abdullah83 &nbsp;·&nbsp; FAST NUCES &nbsp;·&nbsp; C++ Developer</div>
+  <div class="title">The Underdog</div>
+  <div class="subtitle">1 pawn &nbsp;&middot;&nbsp; 1 knight &nbsp;&middot;&nbsp; 1 king &nbsp;&mdash;&nbsp; vs the world</div>
+</div>
+
+<div class="prog-wrap">
+  <div class="prog-track"><div class="prog-fill" id="prog"></div></div>
+</div>
+
+<div class="stage">
+  <canvas id="board" width="336" height="336"></canvas>
+
+  <div class="sidebar">
+    <div class="panel">
+      <div class="phdr">Matchup</div>
+      <div class="vs-row">
+        <div class="vs-side">
+          <div class="vs-glyphs">&#9820;&#9819;&#9820;</div>
+          <div class="vs-lbl b">Black</div>
+        </div>
+        <div class="vs-div">vs</div>
+        <div class="vs-side">
+          <div class="vs-glyphs">&#9817;&#9816;&#9812;</div>
+          <div class="vs-lbl w">White</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="phdr">Move log</div>
+      <div class="log-box" id="lg"></div>
+    </div>
+
+    <div class="panel">
+      <div class="status-wrap">
+        <div class="s-lbl">Status</div>
+        <div class="s-val" id="sv">Awaiting...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="narr"><div class="narr-txt" id="nt">Outnumbered. Outgunned. The pawn steps forward anyway.</div></div>
+
+<button class="replay" id="rb">&#8635; &nbsp; Replay</button>
+
+<div class="footer-quote">
+  <p><span>&#8220;</span> It is not about the pieces you have &mdash; it is about how far you are willing to advance. <span>&#8221;</span></p>
+</div>
+
+<script>
+const cv=document.getElementById('board');
+const ctx=cv.getContext('2d');
+const W=336,CELL=W/8;
+
+const COL={
+  dark:'#060c14',light:'#0c1a26',
+  cyan:'#00ccee',gold:'#ffcc00',red:'#ee3333',green:'#00ee77',
+  wp:'#d0ecff',bp:'#cc2222',
+  hC:'rgba(0,200,230,.22)',hG:'rgba(255,200,0,.28)',
+  hR:'rgba(238,51,51,.3)',hGr:'rgba(0,238,119,.26)',
+};
+
+function cx(c){return(c+.5)*CELL;}
+function cy(r){return(r+.5)*CELL;}
+
+let state,particles,highlights,anim,tids=[],rafId,t0,td;
+
+function spawnBurst(x,y,col,n){
+  for(let i=0;i<n;i++){
+    const a=Math.random()*Math.PI*2,s=1.5+Math.random()*3.8;
+    particles.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-1.3,life:42+Math.random()*28,max:70,r:1.5+Math.random()*2.8,col,ring:false});
+  }
+}
+function spawnRing(x,y,col){
+  particles.push({ring:true,x,y,r:4,maxR:34,col,life:32,max:32});
+}
+
+function drawBoard(){
+  for(let r=0;r<8;r++)for(let c=0;c<8;c++){
+    ctx.fillStyle=(r+c)%2===0?COL.light:COL.dark;
+    ctx.fillRect(c*CELL,r*CELL,CELL,CELL);
+  }
+  ctx.strokeStyle='rgba(0,180,220,.06)';ctx.lineWidth=.5;
+  for(let i=0;i<=8;i++){
+    ctx.beginPath();ctx.moveTo(i*CELL,0);ctx.lineTo(i*CELL,W);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(0,i*CELL);ctx.lineTo(W,i*CELL);ctx.stroke();
+  }
+  const f='abcdefgh';
+  ctx.font='7px monospace';ctx.fillStyle='rgba(0,180,220,.18)';
+  for(let i=0;i<8;i++){
+    ctx.textAlign='left';ctx.textBaseline='bottom';ctx.fillText(f[i],i*CELL+2,W-1);
+    ctx.textAlign='left';ctx.textBaseline='top';ctx.fillText(String(8-i),1,i*CELL+2);
+  }
+}
+
+function drawHL(){
+  highlights.forEach(h=>{
+    ctx.fillStyle=h.col;ctx.fillRect(h.c*CELL+1,h.r*CELL+1,CELL-2,CELL-2);
+    if(h.bd){ctx.strokeStyle=h.bd;ctx.lineWidth=1.5;ctx.strokeRect(h.c*CELL+1.5,h.r*CELL+1.5,CELL-3,CELL-3);}
+  });
+}
+
+function glyph(name){
+  return{pawn:'♙',knight:'♘',king:'♔',bking:'♚',queen:'♛',rook:'♜',wqueen:'♕'}[name];
+}
+
+function dp(g,c,r,isW,sc,al){
+  sc=sc||1;al=al===undefined?1:al;
+  if(c<0||c>7||r<0||r>7)return;
+  const sz=Math.floor(CELL*.72*sc);
+  ctx.save();ctx.globalAlpha=al;
+  ctx.font=sz+'px serif';ctx.textAlign='center';ctx.textBaseline='middle';
+  ctx.shadowColor=isW?COL.cyan:COL.red;ctx.shadowBlur=10*sc;
+  ctx.fillStyle=isW?COL.wp:COL.bp;
+  ctx.fillText(g,cx(c),cy(r)+1);ctx.restore();
+}
+
+function drawParts(){
+  particles=particles.filter(p=>{
+    p.life--;if(p.life<=0)return false;
+    const a=p.life/p.max;
+    ctx.save();ctx.globalAlpha=a*.92;
+    if(p.ring){
+      p.r+=(p.maxR-p.r)*.16;
+      ctx.strokeStyle=p.col;ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.stroke();
+    } else {
+      p.x+=p.vx;p.y+=p.vy;p.vy+=.2;
+      ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();
+    }
+    ctx.restore();return true;
+  });
+}
+
+function drawStatic(){
+  const s=state;
+  if(s.rookA.alive) dp('♜',s.rookA.c,s.rookA.r,false);
+  if(s.rookB.alive) dp('♜',s.rookB.c,s.rookB.r,false);
+  if(s.queen.alive) dp('♛',s.queen.c,s.queen.r,false);
+  dp('♚',s.bKing.c,s.bKing.r,false);
+  dp('♔',s.wKing.c,s.wKing.r,true);
+  if(s.knight.alive) dp('♘',s.knight.c,s.knight.r,true);
+  if(s.pawn.alive) dp(s.pawn.promoted?'♕':'♙',s.pawn.c,s.pawn.r,true);
+}
+
+function render(){
+  ctx.clearRect(0,0,W,W);
+  drawBoard();drawHL();drawParts();
+  if(anim){
+    const t=Math.min((performance.now()-anim.t0)/anim.dur,1);
+    const e=t<.5?2*t*t:-1+(4-2*t)*t;
+    const ac=anim.fc+(anim.tc-anim.fc)*e;
+    const ar=anim.fr+(anim.tr-anim.fr)*e;
+    const arc=Math.sin(t*Math.PI)*.22;
+    drawStatic();
+    const sz=Math.floor(CELL*.72*(1+arc));
+    ctx.save();ctx.font=sz+'px serif';ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.shadowColor=anim.isW?COL.cyan:COL.red;ctx.shadowBlur=14*(1+arc);
+    ctx.fillStyle=anim.isW?COL.wp:COL.bp;
+    ctx.fillText(anim.gl,cx(ac),cy(ar)+1);ctx.restore();
+    if(t>=1){if(anim.done)anim.done();anim=null;}
+  } else {drawStatic();}
+}
+
+function later(fn,ms){const t=setTimeout(fn,ms);tids.push(t);}
+function hl(a){highlights=a;}
+function sv(txt,col){const e=document.getElementById('sv');e.textContent=txt;e.style.color=col||COL.cyan;}
+function nt(txt,lit){const e=document.getElementById('nt');e.textContent=txt;e.classList.toggle('lit',!!lit);}
+function log(txt,cls,d){
+  later(()=>{
+    const e=document.createElement('div');e.className='le '+cls;e.textContent=txt;
+    const b=document.getElementById('lg');b.appendChild(e);
+    requestAnimationFrame(()=>e.classList.add('show'));
+    b.scrollTop=b.scrollHeight;
+  },d||0);
+}
+function move(fc,fr,tc,tr,gl,isW,dur,done){
+  anim={fc,fr,tc,tr,gl,isW,dur,t0:performance.now(),done};
+}
+
+function tickProg(){
+  if(!t0)return;
+  const p=Math.min((performance.now()-t0)/td*100,100);
+  document.getElementById('prog').style.width=p+'%';
+  if(p<100)requestAnimationFrame(tickProg);
+}
+
+function run(){
+  tids.forEach(clearTimeout);tids=[];
+  if(rafId)cancelAnimationFrame(rafId);
+  anim=null;particles=[];highlights=[];
+  document.getElementById('lg').innerHTML='';
+  document.getElementById('prog').style.width='0%';
+  sv('Awaiting...',COL.cyan);
+  nt('Outnumbered. Outgunned. The pawn steps forward anyway.',false);
+
+  state={
+    wKing:{c:4,r:7},
+    knight:{c:6,r:3,alive:true},
+    pawn:{c:6,r:1,alive:true,promoted:false},
+    bKing:{c:6,r:0},
+    queen:{c:3,r:2,alive:true},
+    rookA:{c:0,r:2,alive:true},
+    rookB:{c:7,r:2,alive:true},
+  };
+
+  td=22000;t0=performance.now();
+  requestAnimationFrame(tickProg);
+
+  const B=900; // base delay
+
+  // Move 1 — Bk Queen d6→d4
+  later(()=>{
+    log('♛ d6 → d4  threatens king','le-b',0);
+    sv('Black queen advances...',COL.red);
+    nt('The queen marches down the board, menacing.',false);
+    hl([{c:3,r:2,col:COL.hR}]);
+    move(3,2,3,4,'♛',false,800,()=>{
+      state.queen={c:3,r:4,alive:true};
+      hl([{c:3,r:4,col:COL.hR,bd:COL.red}]);
+    });
+  },B);
+
+  // Move 2 — Wh Knight g5→f7+ CHECK
+  later(()=>{
+    log('♘ g5 → f7+  CHECK!','le-w',0);
+    sv('KNIGHT CHECK!',COL.cyan);
+    nt('The knight leaps. Unexpected. The king flinches.',false);
+    hl([{c:5,r:1,col:COL.hC,bd:COL.cyan},{c:6,r:0,col:COL.hR}]);
+    move(6,3,5,1,'♘',true,620,()=>{
+      state.knight={c:5,r:1,alive:true};
+      spawnBurst(cx(5),cy(1),COL.cyan,18);
+      spawnRing(cx(6),cy(0),COL.red);
+    });
+  },B+1600);
+
+  // Move 3 — Bk King g8→f8 forced
+  later(()=>{
+    log('♚ g8 → f8  (forced)','le-b',0);
+    sv('King forced to retreat!','#f07070');
+    nt('Forced. The king has no choice.',false);
+    hl([{c:5,r:0,col:COL.hR,bd:COL.red}]);
+    move(6,0,5,0,'♚',false,520,()=>{
+      state.bKing={c:5,r:0};
+      hl([{c:5,r:0,col:COL.hR}]);
+    });
+  },B+3400);
+
+  // Move 4 — Wh Pawn g7→g8=♕ PROMOTION
+  later(()=>{
+    log('♙ g7 → g8 = ♕  PROMOTION!','le-y',0);
+    sv('PROMOTION — ♕ Born!',COL.gold);
+    nt('One step. That is all it takes. The pawn becomes a queen.',true);
+    hl([{c:6,r:0,col:COL.hG,bd:COL.gold}]);
+    move(6,1,6,0,'♙',true,720,()=>{
+      state.pawn={c:6,r:0,alive:true,promoted:true};
+      spawnBurst(cx(6),cy(0),COL.gold,32);
+      spawnRing(cx(6),cy(0),COL.gold);
+      spawnRing(cx(6),cy(0),COL.gold);
+      hl([{c:6,r:0,col:COL.hG,bd:COL.gold}]);
+    });
+  },B+5200);
+
+  // Move 5 — Bk Rook h6→h7 desperation
+  later(()=>{
+    log('♜ h6 → h7  (desperation)','le-b',0);
+    sv('Black scrambles...','#f07070');
+    nt('Panic. The rook scrambles. It is already too late.',false);
+    move(7,2,7,1,'♜',false,520,()=>{
+      state.rookB={c:7,r:1,alive:true};
+      hl([{c:7,r:1,col:COL.hR}]);
+    });
+  },B+7200);
+
+  // Move 6 — Wh Knight f7→d8+ CHECK
+  later(()=>{
+    log('♘ f7 → d8+  CHECK!','le-w',0);
+    sv('Knight checks again!',COL.cyan);
+    nt('The knight strikes from another angle. Check.',false);
+    hl([{c:3,r:0,col:COL.hC,bd:COL.cyan},{c:5,r:0,col:COL.hR}]);
+    move(5,1,3,0,'♘',true,620,()=>{
+      state.knight={c:3,r:0,alive:true};
+      spawnBurst(cx(3),cy(0),COL.cyan,16);
+      spawnRing(cx(5),cy(0),COL.red);
+    });
+  },B+9000);
+
+  // Move 7 — Bk King f8→e7 fleeing
+  later(()=>{
+    log('♚ f8 → e7  (fleeing)','le-b',0);
+    sv('King flees...','#f07070');
+    nt('The king runs. There is nowhere left to hide.',false);
+    hl([{c:4,r:1,col:COL.hR}]);
+    move(5,0,4,1,'♚',false,520,()=>{
+      state.bKing={c:4,r:1};
+      hl([{c:4,r:1,col:COL.hR}]);
+    });
+  },B+10800);
+
+  // Move 8 — Wh Queen g8→g7+ CHECK
+  later(()=>{
+    log('♕ g8 → g7+  CHECK!','le-w',0);
+    sv('QUEEN CHECK!',COL.cyan);
+    nt('The new queen delivers check. The board belongs to White.',false);
+    hl([{c:6,r:1,col:COL.hC,bd:COL.cyan},{c:4,r:1,col:COL.hR}]);
+    move(6,0,6,1,'♕',true,520,()=>{
+      state.pawn={c:6,r:1,alive:true,promoted:true};
+      spawnBurst(cx(6),cy(1),COL.cyan,15);
+      hl([{c:6,r:1,col:COL.hC,bd:COL.cyan},{c:4,r:1,col:COL.hR}]);
+    });
+  },B+12400);
+
+  // Move 9 — Bk King e7→d6 cornered
+  later(()=>{
+    log('♚ e7 → d6  (cornered)','le-b',0);
+    sv('King cornered — last move','#f07070');
+    nt('Cornered. Desperate. The king makes its final move.',false);
+    hl([{c:3,r:2,col:COL.hR,bd:COL.red}]);
+    move(4,1,3,2,'♚',false,520,()=>{
+      state.bKing={c:3,r:2};
+      hl([{c:3,r:2,col:COL.hR,bd:COL.red}]);
+    });
+  },B+14200);
+
+  // Move 10 — Wh Queen g7→d4 CHECKMATE
+  later(()=>{
+    log('♕ g7 → d4#  CHECKMATE ✓','le-g',0);
+    sv('CHECKMATE ✓',COL.green);
+    nt('"Outgunned. Not outplayed." — The pawn that became a queen.',true);
+    hl([
+      {c:3,r:4,col:COL.hGr,bd:COL.green},
+      {c:3,r:2,col:COL.hR,bd:COL.red},
+    ]);
+    move(6,1,3,4,'♕',true,720,()=>{
+      state.pawn={c:3,r:4,alive:true,promoted:true};
+      spawnBurst(cx(3),cy(4),COL.green,30);
+      spawnRing(cx(3),cy(4),COL.green);
+      spawnRing(cx(3),cy(2),COL.red);
+      spawnBurst(cx(3),cy(2),COL.red,18);
+    });
+  },B+16000);
+
+  later(()=>{nt('The legend restarts...',false);},B+20200);
+  later(run,B+21600);
+
+  function loop(){render();rafId=requestAnimationFrame(loop);}
+  loop();
+}
+
+document.getElementById('rb').addEventListener('click',run);
+run();
+</script>
+</body>
+</html>
