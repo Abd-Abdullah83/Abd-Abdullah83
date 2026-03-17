@@ -1,0 +1,299 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+.cd{fill:#060c14}.cl{fill:#0c1a26}
+.pw{font-size:26px;fill:#d0ecff;font-family:serif}
+.pb{font-size:26px;fill:#cc2222;font-family:serif}
+.lab{font-size:9.5px;fill:#3ab8d8;font-family:monospace}
+.labg{font-size:9.5px;fill:#00dd66;font-family:monospace}
+.labr{font-size:9.5px;fill:#dd3333;font-family:monospace}
+.laby{font-size:9.5px;fill:#ffcc00;font-family:monospace}
+.labd{font-size:8.5px;fill:#1a3a4a;font-family:monospace}
+.ttl{font-size:13px;fill:#ffcc00;font-family:serif;font-weight:bold;letter-spacing:.15em}
+.sub{font-size:9px;fill:#1e3a50;font-family:monospace;letter-spacing:.15em}
+.qt{font-size:10.5px;fill:#ffcc00;font-family:serif;font-style:italic}
+.stat-val{font-size:22px;fill:#00ccee;font-family:monospace;font-weight:bold}
+.stat-lbl{font-size:8px;fill:#1a3a4a;font-family:monospace;letter-spacing:.15em;text-transform:uppercase}
+</style>
+
+<!-- BOARD cells reusable -->
+<rect id="cd" width="34" height="34" class="cd"/>
+<rect id="cl" width="34" height="34" class="cl"/>
+</defs>
+
+<!-- ── BACKGROUND ── -->
+<rect width="800" height="420" fill="#04060a" rx="12"/>
+<!-- chess tile pattern -->
+<rect width="800" height="420" rx="12" fill="url(#tp)" opacity=".4"/>
+<pattern id="tp" x="0" y="0" width="68" height="68" patternUnits="userSpaceOnUse">
+  <rect width="34" height="34" fill="rgba(0,180,220,.018)"/>
+  <rect x="34" y="34" width="34" height="34" fill="rgba(0,180,220,.018)"/>
+</pattern>
+
+<!-- ── BORDER GLOW ── -->
+<rect x="1" y="1" width="798" height="418" rx="12" fill="none" stroke="rgba(0,200,238,.12)" stroke-width="1"/>
+<rect x="3" y="3" width="794" height="414" rx="11" fill="none" stroke="rgba(255,204,0,.06)" stroke-width="1"/>
+
+<!-- ══════════════════════════════════════
+     BOARD at x=14, y=14, cell=34px, 8x8
+     col x = 14 + col*34 + 17 (center)
+     row y = 14 + row*34 + 22 (center)
+     a8=col0r0: cx=31, cy=36
+     g8=col6r0: cx=235, cy=36
+     f7=col5r1: cx=201, cy=70
+     g7=col6r1: cx=235, cy=70
+     g6=col6r2: cx=235, cy=104
+     g5=col6r3: cx=235, cy=138
+     d6=col3r2: cx=133, cy=104
+     d4=col3r4: cx=133, cy=172
+     a6=col0r2: cx=31, cy=104
+     h6=col7r2: cx=269, cy=104
+     h7=col7r1: cx=269, cy=70
+     f8=col5r0: cx=201, cy=36
+     d8=col3r0: cx=133, cy=36
+     e7=col4r1: cx=167, cy=70
+     d6=col3r2: cx=133, cy=104
+     e1=col4r7: cx=167, cy=274
+══════════════════════════════════════ -->
+
+<!-- Row 8 (r=0) -->
+<use href="#cl" x="14" y="14"/><use href="#cd" x="48" y="14"/><use href="#cl" x="82" y="14"/><use href="#cd" x="116" y="14"/><use href="#cl" x="150" y="14"/><use href="#cd" x="184" y="14"/><use href="#cl" x="218" y="14"/><use href="#cd" x="252" y="14"/>
+<!-- Row 7 (r=1) -->
+<use href="#cd" x="14" y="48"/><use href="#cl" x="48" y="48"/><use href="#cd" x="82" y="48"/><use href="#cl" x="116" y="48"/><use href="#cd" x="150" y="48"/><use href="#cl" x="184" y="48"/><use href="#cd" x="218" y="48"/><use href="#cl" x="252" y="48"/>
+<!-- Row 6 (r=2) -->
+<use href="#cl" x="14" y="82"/><use href="#cd" x="48" y="82"/><use href="#cl" x="82" y="82"/><use href="#cd" x="116" y="82"/><use href="#cl" x="150" y="82"/><use href="#cd" x="184" y="82"/><use href="#cl" x="218" y="82"/><use href="#cd" x="252" y="82"/>
+<!-- Row 5 (r=3) -->
+<use href="#cd" x="14" y="116"/><use href="#cl" x="48" y="116"/><use href="#cd" x="82" y="116"/><use href="#cl" x="116" y="116"/><use href="#cd" x="150" y="116"/><use href="#cl" x="184" y="116"/><use href="#cd" x="218" y="116"/><use href="#cl" x="252" y="116"/>
+<!-- Row 4 (r=4) -->
+<use href="#cl" x="14" y="150"/><use href="#cd" x="48" y="150"/><use href="#cl" x="82" y="150"/><use href="#cd" x="116" y="150"/><use href="#cl" x="150" y="150"/><use href="#cd" x="184" y="150"/><use href="#cl" x="218" y="150"/><use href="#cd" x="252" y="150"/>
+<!-- Row 3 (r=5) -->
+<use href="#cd" x="14" y="184"/><use href="#cl" x="48" y="184"/><use href="#cd" x="82" y="184"/><use href="#cl" x="116" y="184"/><use href="#cd" x="150" y="184"/><use href="#cl" x="184" y="184"/><use href="#cd" x="218" y="184"/><use href="#cl" x="252" y="184"/>
+<!-- Row 2 (r=6) -->
+<use href="#cl" x="14" y="218"/><use href="#cd" x="48" y="218"/><use href="#cl" x="82" y="218"/><use href="#cd" x="116" y="218"/><use href="#cl" x="150" y="218"/><use href="#cd" x="184" y="218"/><use href="#cl" x="218" y="218"/><use href="#cd" x="252" y="218"/>
+<!-- Row 1 (r=7) -->
+<use href="#cd" x="14" y="252"/><use href="#cl" x="48" y="252"/><use href="#cd" x="82" y="252"/><use href="#cl" x="116" y="252"/><use href="#cd" x="150" y="252"/><use href="#cl" x="184" y="252"/><use href="#cd" x="218" y="252"/><use href="#cl" x="252" y="252"/>
+
+<rect x="14" y="14" width="272" height="272" fill="none" stroke="rgba(0,180,220,.18)" stroke-width="1"/>
+
+<!-- Coords -->
+<text x="19"  y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">a</text>
+<text x="53"  y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">b</text>
+<text x="87"  y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">c</text>
+<text x="121" y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">d</text>
+<text x="155" y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">e</text>
+<text x="189" y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">f</text>
+<text x="223" y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">g</text>
+<text x="257" y="285" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">h</text>
+<text x="15"  y="32"  font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">8</text>
+<text x="15"  y="66"  font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">7</text>
+<text x="15"  y="100" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">6</text>
+<text x="15"  y="134" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">5</text>
+<text x="15"  y="168" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">4</text>
+<text x="15"  y="202" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">3</text>
+<text x="15"  y="236" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">2</text>
+<text x="15"  y="270" font-size="6" fill="rgba(0,180,220,.2)" font-family="monospace">1</text>
+
+<!-- ══ ANIMATED HIGHLIGHTS ══ -->
+<!-- f7 knight check cyan -->
+<rect x="184" y="48" width="34" height="34" rx="2" fill="rgba(0,200,238,0)">
+  <animate attributeName="fill" values="rgba(0,200,238,0);rgba(0,200,238,0);rgba(0,200,238,.28);rgba(0,200,238,.28);rgba(0,200,238,0)" keyTimes="0;.17;.20;.28;.33" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- g8 king red check -->
+<rect x="218" y="14" width="34" height="34" rx="2" fill="rgba(238,51,51,0)">
+  <animate attributeName="fill" values="rgba(238,51,51,0);rgba(238,51,51,0);rgba(238,51,51,.38);rgba(238,51,51,0)" keyTimes="0;.19;.22;.26" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- g8 gold PROMOTION -->
+<rect x="218" y="14" width="34" height="34" rx="2" fill="rgba(255,200,0,0)">
+  <animate attributeName="fill" values="rgba(255,200,0,0);rgba(255,200,0,0);rgba(255,200,0,.45);rgba(255,200,0,.6);rgba(255,200,0,.2);rgba(255,200,0,0)" keyTimes="0;.34;.37;.42;.48;.54" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- d8 knight check -->
+<rect x="116" y="14" width="34" height="34" rx="2" fill="rgba(0,200,238,0)">
+  <animate attributeName="fill" values="rgba(0,200,238,0);rgba(0,200,238,0);rgba(0,200,238,.28);rgba(0,200,238,0)" keyTimes="0;.49;.52;.57" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- f8 king check red -->
+<rect x="184" y="14" width="34" height="34" rx="2" fill="rgba(238,51,51,0)">
+  <animate attributeName="fill" values="rgba(238,51,51,0);rgba(238,51,51,0);rgba(238,51,51,.38);rgba(238,51,51,0)" keyTimes="0;.49;.52;.57" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- g7 queen check -->
+<rect x="218" y="48" width="34" height="34" rx="2" fill="rgba(0,200,238,0)">
+  <animate attributeName="fill" values="rgba(0,200,238,0);rgba(0,200,238,0);rgba(0,200,238,.25);rgba(0,200,238,0)" keyTimes="0;.63;.67;.72" dur="24s" repeatCount="indefinite"/>
+</rect>
+<!-- CHECKMATE d6 red + d4 green -->
+<rect x="116" y="82" width="34" height="34" rx="2" fill="rgba(238,51,51,0)">
+  <animate attributeName="fill" values="rgba(238,51,51,0);rgba(238,51,51,0);rgba(238,51,51,.55);rgba(238,51,51,.55);rgba(238,51,51,0)" keyTimes="0;.80;.83;.92;.97" dur="24s" repeatCount="indefinite"/>
+</rect>
+<rect x="116" y="150" width="34" height="34" rx="2" fill="rgba(0,238,119,0)">
+  <animate attributeName="fill" values="rgba(0,238,119,0);rgba(0,238,119,0);rgba(0,238,119,.35);rgba(0,238,119,.35);rgba(0,238,119,0)" keyTimes="0;.80;.83;.92;.97" dur="24s" repeatCount="indefinite"/>
+</rect>
+
+<!-- PROMOTION BURST -->
+<circle cx="235" cy="31" r="2" fill="rgba(255,200,0,0)">
+  <animate attributeName="r" values="2;2;2;30;10;2" keyTimes="0;.35;.37;.43;.50;.56" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="fill" values="rgba(255,200,0,0);rgba(255,200,0,0);rgba(255,200,0,.55);rgba(255,200,0,.1);rgba(255,200,0,0)" keyTimes="0;.35;.40;.48;.56" dur="24s" repeatCount="indefinite"/>
+</circle>
+<circle cx="235" cy="31" r="2" stroke="rgba(255,200,0,0)" stroke-width="1.5" fill="none">
+  <animate attributeName="r" values="2;2;2;42;2" keyTimes="0;.36;.38;.46;.56" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="stroke" values="rgba(255,200,0,0);rgba(255,200,0,0);rgba(255,200,0,.7);rgba(255,200,0,0)" keyTimes="0;.37;.43;.56" dur="24s" repeatCount="indefinite"/>
+</circle>
+<!-- CHECKMATE burst green -->
+<circle cx="133" cy="167" r="2" fill="rgba(0,238,119,0)">
+  <animate attributeName="r" values="2;2;2;28;8;2" keyTimes="0;.80;.82;.88;.93;.98" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="fill" values="rgba(0,238,119,0);rgba(0,238,119,0);rgba(0,238,119,.5);rgba(0,238,119,0)" keyTimes="0;.80;.87;.98" dur="24s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ══ STATIC BLACK PIECES ══ -->
+<!-- Rook a6 static (col0,r2): x=31, y=104 -->
+<text x="31" y="109" text-anchor="middle" class="pb">&#9820;</text>
+
+<!-- Rook h6→h7: (269,104)→(269,70) -->
+<text text-anchor="middle" class="pb">&#9820;
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.39;.44;.78;1"
+    path="M269,104 L269,104 L269,70 L269,70 L269,104"/>
+</text>
+
+<!-- Queen d6→d4: (133,104)→(133,172) -->
+<text text-anchor="middle" class="pb">&#9819;
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.07;.13;.52;.78;1"
+    path="M133,104 L133,104 L133,172 L133,172 L133,172 L133,104"/>
+</text>
+
+<!-- Black King g8→f8→e7→d6: (235,36)→(201,36)→(167,70)→(133,104) -->
+<text text-anchor="middle" class="pb">&#9818;
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.23;.30;.54;.61;.70;.76;.90;1"
+    path="M235,36 L235,36 L201,36 L201,36 L167,70 L167,70 L133,104 L133,104 L235,36"/>
+</text>
+
+<!-- ══ STATIC WHITE PIECES ══ -->
+<!-- King e1: cx=167, cy=274 -->
+<text x="167" y="279" text-anchor="middle" class="pw">&#9812;</text>
+
+<!-- Knight g5→f7→d8: (235,138)→(201,70)→(133,36) -->
+<text text-anchor="middle" class="pw">&#9816;
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.15;.21;.46;.54;.78;.90;1"
+    path="M235,138 L235,138 L201,70 L201,70 L133,36 L133,36 L133,36 L235,138"/>
+</text>
+
+<!-- Pawn g7→g8 then gone: (235,70)→(235,36) -->
+<text text-anchor="middle" class="pw" opacity="1">&#9817;
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.34;.38;1"
+    path="M235,70 L235,70 L235,36 L235,36"/>
+  <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;.34;.39;.42;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- Promoted White Queen: g8→g7→d4 -->
+<text text-anchor="middle" class="pw" opacity="0">&#9813;
+  <animate attributeName="opacity" values="0;0;1;1;1;1;0" keyTimes="0;.40;.43;.68;.88;.96;1" dur="24s" repeatCount="indefinite"/>
+  <animateMotion dur="24s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1;.4 0 .6 1"
+    keyTimes="0;.43;.60;.67;.75;.83;1"
+    path="M235,36 L235,36 L235,36 L235,70 L235,70 L133,172 L133,172"/>
+</text>
+
+<!-- ══════════════════════════
+     RIGHT PANEL at x=304
+══════════════════════════ -->
+
+<!-- Panel bg -->
+<rect x="300" y="14" width="486" height="390" fill="#070d16" rx="8" stroke="#0d1c2a" stroke-width=".5"/>
+
+<!-- Title block -->
+<text x="543" y="50" text-anchor="middle" class="ttl">THE UNDERDOG</text>
+<text x="543" y="66" text-anchor="middle" class="sub">ABD-ABDULLAH83  ·  FAST NUCES</text>
+<line x1="310" y1="74" x2="776" y2="74" stroke="#0d1c2a" stroke-width=".5"/>
+
+<!-- VS ROW -->
+<text x="360" y="96" class="labr">&#9820; &#9819; &#9820;  Black</text>
+<text x="543" y="96" text-anchor="middle" class="labd">vs</text>
+<text x="620" y="96" class="lab">&#9817; &#9816; &#9812;  White</text>
+<line x1="310" y1="104" x2="776" y2="104" stroke="#0d1c2a" stroke-width=".5"/>
+
+<!-- MOVE LOG -->
+<text x="314" y="120" class="labd">Move log</text>
+
+<text x="314" y="136" class="labr" opacity="0">&#9819; d6&#8594;d4   threatens king
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.09;.14;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="152" class="lab" opacity="0">&#9816; g5&#8594;f7+  CHECK!
+  <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.17;.21;.25;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="168" class="labr" opacity="0">&#9818; g8&#8594;f8   forced
+  <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.25;.28;.31;.34;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="184" class="laby" opacity="0">&#9817; g7&#8594;g8 = &#9813;  PROMOTION!
+  <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;.31;.35;.38;.41;.44;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="200" class="labr" opacity="0">&#9820; h6&#8594;h7   desperation
+  <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.40;.44;.47;.50;.53;.56;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="216" class="lab" opacity="0">&#9816; f7&#8594;d8+  CHECK!
+  <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;.47;.51;.54;.56;.58;.60;.63;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="232" class="lab" opacity="0">&#9813; g8&#8594;g7+  CHECK!
+  <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" keyTimes="0;.58;.63;.66;.68;.70;.72;.74;.77;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="314" y="248" class="labg" opacity="0">&#9813; g7&#8594;d4#  CHECKMATE &#10003;
+  <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1;1;0" keyTimes="0;.63;.68;.72;.75;.77;.79;.81;.83;.86;.95;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<line x1="310" y1="258" x2="776" y2="258" stroke="#0d1c2a" stroke-width=".5"/>
+
+<!-- STATUS BOX -->
+<rect x="310" y="265" width="220" height="26" rx="4" fill="#060c14" stroke="#0d1c2a" stroke-width=".5"/>
+<text x="420" y="282" text-anchor="middle" class="lab" opacity="1">Watching the board...
+  <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;.07;.10;.35;.55;.70;.85;.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="420" y="282" text-anchor="middle" class="lab" opacity="0">Knight checks — king rattled
+  <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;.19;.23;.32;.36;.55;.70;.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="420" y="282" text-anchor="middle" class="laby" opacity="0">PROMOTED. They have no answer.
+  <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;.39;.43;.46;.48;.62;.66;.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="420" y="282" text-anchor="middle" class="labg" opacity="0">CHECKMATE &#10003; Game over.
+  <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.60;.72;.80;.84;.87;.89;.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- STATS SECTION -->
+<line x1="540" y1="265" x2="776" y2="265" stroke="#0d1c2a" stroke-width=".5"/>
+<text x="658" y="282" text-anchor="middle" class="sub">My Confidence</text>
+<line x1="540" y1="287" x2="776" y2="287" stroke="#0d1c2a" stroke-width=".5"/>
+
+<text x="580" y="316" text-anchor="middle" class="stat-val">1</text>
+<text x="580" y="328" text-anchor="middle" class="stat-lbl">Pawn</text>
+
+<text x="658" y="316" text-anchor="middle" class="stat-val">vs</text>
+
+<text x="736" y="316" text-anchor="middle" class="stat-val" fill="#ee3333">3</text>
+<text x="736" y="328" text-anchor="middle" class="stat-lbl">Pieces</text>
+
+<line x1="540" y1="337" x2="776" y2="337" stroke="#0d1c2a" stroke-width=".5"/>
+
+<!-- Result display -->
+<rect x="544" y="345" width="228" height="30" rx="4" fill="rgba(0,238,119,.07)" stroke="rgba(0,238,119,.2)" stroke-width=".5">
+  <animate attributeName="fill" values="rgba(0,238,119,.07);rgba(0,238,119,.07);rgba(0,238,119,.15);rgba(0,238,119,.07)" keyTimes="0;.82;.90;1" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="stroke" values="rgba(0,238,119,.2);rgba(0,238,119,.2);rgba(0,238,119,.6);rgba(0,238,119,.2)" keyTimes="0;.82;.90;1" dur="24s" repeatCount="indefinite"/>
+</rect>
+<text x="658" y="365" text-anchor="middle" class="labg">Result: CHECKMATE &#10003;</text>
+
+<!-- QUOTE -->
+<line x1="310" y1="385" x2="776" y2="385" stroke="#0d1c2a" stroke-width=".5"/>
+<text x="543" y="402" text-anchor="middle" class="qt" opacity="0">
+  &#8220; Outgunned. Not outplayed. &#8221;
+  <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.55;.68;.78;.84;.87;.89;.97;1" dur="24s" repeatCount="indefinite"/>
+</text>
+<text x="543" y="402" text-anchor="middle" class="labd" opacity="1">
+  pawn + knight + king  &#183;  vs  &#183;  queen + 2 rooks
+  <animate attributeName="opacity" values="1;1;1;1;1;1;0;0;1" keyTimes="0;.55;.68;.78;.84;.87;.89;.97;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+</svg>
