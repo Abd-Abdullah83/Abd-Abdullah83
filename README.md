@@ -75,6 +75,15 @@ class Developer {
 
 ---
 
+
+## ♟️ My Confidence — In Chess Form
+
+> 1 pawn · 1 knight · 1 king &nbsp;**vs**&nbsp; 1 queen · 2 rooks
+
+[![Watch the game](https://img.shields.io/badge/▶_Watch_Live_Game-Chess_Animation-gold?style=for-the-badge)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
+
+---
+---
 ## 📊 GitHub Stats
 
 <div align="center">
