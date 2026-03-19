@@ -2,7 +2,7 @@
 
 [![Name](https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=46&duration=3500&pause=2000&color=FFD700&center=true&vCenter=true&width=720&height=90&lines=Abdullah)](https://github.com/Abd-Abdullah83)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=800&color=00CCEE&center=true&vCenter=true&width=720&height=45&lines=C%2B%2B+Developer+%7C+OOP+Enthusiast;SFML+Game+%26+System+Developer;Minimax+AI+%7C+Backtracking+%7C+Algorithms;Building+Real-World+Systems+%40+FAST+NUCES)](https://github.com/Abd-Abdullah83)
+
 
 </div>
 
