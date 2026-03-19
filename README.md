@@ -180,5 +180,7 @@ public:
 <br>
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=0a0f1a&color=00ccee)
+![Last Commit](https://img.shields.io/github/last-commit/Abd-Abdullah83/100-days-of-cpp?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/Abd-Abdullah83/100-days-of-cpp?style=for-the-badge)
 
 </div>
