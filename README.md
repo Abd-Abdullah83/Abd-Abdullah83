@@ -1,14 +1,15 @@
 <div align="center">
 
-[![Name](https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=46&duration=3500&pause=2000&color=FFD700&center=true&vCenter=true&width=720&height=90&lines=Abdullah)](https://github.com/Abd-Abdullah83)
+[![Name](https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=52&duration=3500&pause=2000&color=FFD700&center=true&vCenter=true&width=720&height=100&lines=Abdullah+Tahir)](https://abd-abdullah83.github.io)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=1000&color=00CCEE&center=true&vCenter=true&width=700&lines=BS+Data+Science+%40+FAST+NUCES+Lahore;C%2B%2B+%7C+SFML+%7C+OOP+%7C+AI+Systems;Gemini+AI+%7C+Web+Dev+%7C+Data+Analytics;Building+Real-World+Logic+Systems+from+Scratch)](https://abd-abdullah83.github.io)
 
+<br/>
 
-</div>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=00CCEE&center=true&vCenter=true&width=650&lines=C%2B%2B+Developer+%7C+OOP+Enthusiast;SFML+Game+%26+System+Developer;Minimax+AI+%7C+Backtracking+%7C+Algorithms;Building+Real-World+Logic+Systems+%40+FAST+NUCES)](https://git.io/typing-svg)
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-abd--abdullah83.github.io-00ffe7?style=for-the-badge&labelColor=020818)](https://abd-abdullah83.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdullah--tahir--ds-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-tahir-ds)
+[![Fiverr](https://img.shields.io/badge/Fiverr-abdullaht__143-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/abdullaht_143)
+[![Email](https://img.shields.io/badge/Email-abdullaht4000%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullaht4000@gmail.com)
 
 </div>
 
@@ -23,22 +24,40 @@
 ```cpp
 class Developer {
 public:
-    const string name      = "Abdullah";
-    const string uni       = "FAST NUCES — Lahore, Pakistan";
-    const string focus[]   = { "OOP", "Algorithms", "SFML", "Data Analysis" };
-    const string passion   = "Turning complex logic into working systems";
-    const bool   available = true;
+    string name       = "Abdullah Tahir";
+    string uni        = "FAST NUCES — Lahore, Pakistan";
+    string degree     = "BS Data Science (2025–2029)";
+    float  cgpa       = 3.56f;
+    string skills[]   = { "C++", "OOP", "SFML", "Python", "Data Analytics",
+                          "Gemini AI", "HTML/CSS/JS", "Algorithms" };
+    int    projects   = 9;
+    int    certs      = 12;
+    bool   openToWork = true;
+    string goal       = "Build a company of lasting impact";
 
     void introduce() {
         cout << "I don't just write code — I architect systems." << endl;
-        cout << "Every project is a logic puzzle waiting to be solved." << endl;
+        cout << "From chess engines to AI assistants, every project" << endl;
+        cout << "is a logic puzzle I build from scratch." << endl;
     }
 };
 ```
 
 <div align="center">
 
-🎓 **FAST National University** — Lahore &nbsp;|&nbsp; ⚙️ **OOP & Clean System Design** &nbsp;|&nbsp; 🎮 **C++ & SFML** &nbsp;|&nbsp; 🧩 **Algorithms from scratch**
+🎓 **FAST NUCES Lahore** &nbsp;|&nbsp; 📊 **Data Science** &nbsp;|&nbsp; ⚙️ **C++ & OOP** &nbsp;|&nbsp; 🤖 **AI Projects** &nbsp;|&nbsp; 🌐 **Web Dev**
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 At a Glance
+
+| 🎓 CGPA | 📁 Projects | 🏅 Certificates | 🤖 AI Score |
+|:---:|:---:|:---:|:---:|
+| **3.56** | **9+** | **12** | **93%** |
 
 </div>
 
@@ -51,10 +70,13 @@ public:
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SFML](https://img.shields.io/badge/SFML-2.x-8CC445?style=for-the-badge&logo=sfml&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 </div>
 
@@ -64,12 +86,17 @@ public:
 
 ## 🚀 Featured Projects
 
-| &nbsp; | Project | Description | Stack |
-|:---:|:---|:---|:---:|
-| ♟️ | **[Chess Master](https://github.com/Abd-Abdullah83/Chess-AI-Puzzles-)** | Full chess game — HvH · HvAI · Minimax Alpha-Beta · Puzzle mode with Elo rating system | `C++` `SFML` `AI` |
-| 🅿️ | **[Smart Parking System](https://github.com/Abd-Abdullah83/Parking-System)** | Real-time parking manager — 4D dynamic arrays · smart slot allocation · live occupancy bars | `C++` `SFML` |
-| 🔢 | **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Graphical + console dual build — procedural generation · backtracking solver · hint system | `C++` `SFML` |
-| ❌⭕ | **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTakToe)** | Two complete versions — ASCII console board + SFML window with themes & sound effects | `C++` `SFML` |
+| &nbsp; | Project | Description | Stack | Type |
+|:---:|:---|:---|:---:|:---:|
+| ♛ | **[Chess Master](https://github.com/Abd-Abdullah83/Chess-AI-Puzzles-)** | Full chess engine — HvH · HvAI · Minimax AI (Easy/Med/Hard) · 4 themes · Puzzle mode with ELO rating · sound FX | `C++` `SFML` `AI` | C++ · AI |
+| 🅿️ | **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | 3-level parking with raw `char****` pointers · Euclidean-distance slot allocation · SFML GUI · live occupancy | `C++` `SFML` | C++ |
+| 🏗️ | **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | ParkingBlock class · Rule of Five · vehicle transfer/merge · file-driven layout · 13-option menu | `C++` `OOP` | C++ |
+| 🔢 | **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML build · recursive backtracking solver · hints · Easy/Medium/Hard difficulty | `C++` `SFML` | C++ |
+| ❌ | **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 board themes · sound effects · win/draw detection | `C++` `SFML` | C++ |
+| 🌐 | **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site · fake news, cyberbullying · 8-question interactive quiz | `HTML` `CSS` `JS` | Web |
+| 💊 | **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescription upload · cart/checkout · patient dashboard · DRAP compliance | `HTML` `CSS` `JS` | Web |
+| ✦ | **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · notes · voice input · text-to-speech · persistent memory | `JS` `Gemini API` | AI · Web |
+| 🤖 | **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · Open-Meteo weather · timer · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` | AI · Web |
 
 </div>
 
@@ -79,12 +106,12 @@ public:
 
 ## 💡 Core Skills
 
-| 🔷 OOP | 🔶 Algorithms | 🟢 Systems | 🟣 Graphics |
+| 🔷 OOP & C++ | 🔶 Algorithms | 🟢 Systems | 🟣 AI & Web |
 |:---:|:---:|:---:|:---:|
-| Classes & Encapsulation | Minimax + Alpha-Beta | Dynamic Memory | SFML Windows |
-| Inheritance & Polymorphism | Backtracking Solver | 4D Pointer Arrays | Sprites & Textures |
-| Rule of Five | Sorting & Searching | Manual Alloc / Free | UI Panels & Forms |
-| Operator Overloading | Graph Traversal | File I/O | Sound & Music |
+| Classes & Encapsulation | Minimax + Alpha-Beta | Dynamic Memory `char****` | Gemini API Integration |
+| Inheritance & Polymorphism | Backtracking Solver | Manual Alloc / Free | Web Speech API |
+| Rule of Five | Sorting & Searching | File I/O | HTML · CSS · JS SPAs |
+| Operator Overloading | Euclidean Distance | SFML GUI & Audio | Data Analytics |
 
 </div>
 
@@ -98,25 +125,34 @@ public:
 >
 > *The pawn advances one step — and wins.*
 
-### The game runs live below 👇
-
-</div>
-
-<div align="center">
-
-<a href="https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html" target="_blank">
-  <img src="https://img.shields.io/badge/🎮_LIVE_CHESS_ANIMATION-Click_to_watch_in_full_screen-gold?style=for-the-badge&labelColor=0a0f1a" alt="Live Chess"/>
-</a>
-
-</div>
-
-<div align="center">
-
 [![Chess Animation Preview](https://raw.githubusercontent.com/Abd-Abdullah83/Abd-Abdullah83/main/chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
 
+> *"Outgunned. Not outplayed." — The pawn that became a queen.*
+
 </div>
 
-> *"Outgunned. Not outplayed." — The pawn that became a queen.*
+---
+
+<div align="center">
+
+## 🏅 Certifications
+
+| Badge | Certificate | Issuer | Score |
+|:---:|:---|:---|:---:|
+| 🤖 | Digital Skills: Artificial Intelligence | Accenture / FutureLearn | **93%** |
+| 💼 | IT Skills For Business | Alison — CPD Certified | **96%** |
+| 📝 | Microsoft Word 2010 & 2013 | Alison — CPD Certified | **92%** |
+| 📊 | Data Analytics & Business Intelligence | DigiSkills.pk — Govt. of Pakistan | ✅ |
+| 🚀 | Startup Strategies & Entrepreneurship | DigiSkills.pk — Govt. of Pakistan | ✅ |
+| 💡 | Data Science & Analytics | HP LIFE — HP Foundation | ✅ |
+| 📈 | Strategic Planning | HP LIFE — HP Foundation | ✅ |
+| 🧠 | Success Mindset | HP LIFE — HP Foundation | ✅ |
+| 🔐 | Cybersecurity | ADBI Institute | ✅ |
+| 🌍 | Climate Change & Sovereign Risk | ADBI Institute | ✅ |
+| 🏆 | Certificate of Merit — Academic Excellence | Punjab Colleges | ✅ |
+| 🤖 | Robotics — Certificate of Participation | Punjab Colleges | ✅ |
+
+</div>
 
 ---
 
@@ -128,26 +164,9 @@ public:
 &nbsp;
 <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Abd-Abdullah83&layout=compact&theme=tokyonight&hide_border=true&bg_color=04060a&title_color=00ccee&text_color=c0dde8&langs_count=6" />
 
-</div>
-
-<div align="center">
+<br/>
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Abd-Abdullah83&theme=tokyonight&hide_border=true&background=04060a&stroke=00ccee&ring=ffcc00&fire=ffcc00&currStreakNum=00ccee&sideNums=c0dde8&currStreakLabel=ffcc00&sideLabels=c0dde8&dates=1a3a4a)
-</div>
-
----
-
-<div align="center">
-
-## 🏆 Achievements
-
-<div align="center">
-
-![Repos](https://img.shields.io/badge/Repositories-5+-00ccee?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a)
-![Language](https://img.shields.io/badge/Primary_Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0a0f1a)
-![Focus](https://img.shields.io/badge/Focus-OOP_%26_Systems-ffcc00?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
-![AI](https://img.shields.io/badge/AI-Minimax_Alpha--Beta-9B59B6?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
-![University](https://img.shields.io/badge/FAST-NUCES_Lahore-ee3333?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
 
 </div>
 
@@ -165,20 +184,36 @@ public:
 
 <div align="center">
 
+## 🏆 Achievements
+
+![Projects](https://img.shields.io/badge/Projects-9+-00ccee?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a)
+![Certs](https://img.shields.io/badge/Certificates-12-ffcc00?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![Language](https://img.shields.io/badge/Primary_Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0a0f1a)
+![AI](https://img.shields.io/badge/AI_Score-93%25-9B59B6?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![CGPA](https://img.shields.io/badge/CGPA-3.56-ee3333?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![University](https://img.shields.io/badge/FAST-NUCES_Lahore-ee3333?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Work-00ccee?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
+
+</div>
+
+---
+
+<div align="center">
+
 ## 💬 Connect
 
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit-00ffe7?style=for-the-badge&labelColor=020818)](https://abd-abdullah83.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Abd--Abdullah83-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abd-Abdullah83)
-[![FAST NUCES](https://img.shields.io/badge/University-FAST_NUCES_Lahore-00599C?style=for-the-badge&logo=graduation-cap&logoColor=white)](https://www.nu.edu.pk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-tahir-ds)
+[![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20Me-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/abdullaht_143)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullaht4000@gmail.com)
 
-<br>
+<br/>
 
 *"Every complex system is just simple logic, stacked carefully."*
 
-<br>
-
-<br>
+<br/>
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=0a0f1a&color=00ccee)
-![Last Commit](https://img.shields.io/github/last-commit/Abd-Abdullah83/100-days-of-cpp?style=for-the-badge)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=0a0f1a&color=00ccee)
+
 </div>
