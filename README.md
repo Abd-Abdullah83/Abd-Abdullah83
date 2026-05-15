@@ -38,7 +38,7 @@ public:
     void introduce() {
         cout << "I don't just write code — I architect systems." << endl;
         cout << "From chess engines to AI assistants, every project" << endl;
-        cout << "is a logic puzzle I build from scratch." << endl;
+        cout << "is a logic puzzle I build from scratch.!" << endl;
     }
 };
 ```
