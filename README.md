@@ -166,7 +166,7 @@ public:
 
 <br/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Abd-Abdullah83&theme=tokyonight&hide_border=true&background=04060a&stroke=00ccee&ring=ffcc00&fire=ffcc00&currStreakNum=00ccee&sideNums=c0dde8&currStreakLabel=ffcc00&sideLabels=c0dde8&dates=1a3a4a)
+![GitHub Streak](https://streak-stats.demolab.com?user=Abd-Abdullah83&theme=tokyonight&hide_border=true&background=04060a&stroke=00ccee&ring=ffcc00&fire=ffcc00&currStreakNum=00ccee&sideNums=c0dde8&currStreakLabel=ffcc00&sideLabels=c0dde8&dates=1a3a4a)
 
 </div>
 
