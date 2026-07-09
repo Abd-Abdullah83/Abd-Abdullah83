@@ -30,7 +30,7 @@ public:
     float  cgpa       = 3.56f;
     string skills[]   = { "C++", "OOP", "SFML", "Python", "Data Analytics",
                           "Gemini AI", "HTML/CSS/JS", "Algorithms" };
-    int    projects   = 9;
+    int    projects   = 13;
     int    certs      = 12;
     bool   openToWork = true;
     string goal       = "Build a company of lasting impact";
