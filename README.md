@@ -2,7 +2,7 @@
 
 [![Name](https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=52&duration=3500&pause=2000&color=FFD700&center=true&vCenter=true&width=720&height=100&lines=Abdullah)](https://abd-abdullah83.github.io)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=1000&color=00CCEE&center=true&vCenter=true&width=700&lines=BS+Data+Science+%40+FAST+NUCES+Lahore;C%2B%2B+%7C+SFML+%7C+OOP+%7C+AI+Systems;Gemini+AI+%7C+Web+Dev+%7C+Data+Analytics;Building+Real-World+Logic+Systems+from+Scratch)](https://abd-abdullah83.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=1000&color=00CCEE&center=true&vCenter=true&width=700&lines=BS+Data+Science+%40+FAST+NUCES+Lahore;Full-Stack+Dev+%7C+Next.js+%7C+FastAPI+%7C+AI+Systems;Building+Nexora+%E2%80%94+Multi-Vendor+Marketplace;C%2B%2B+%7C+SFML+%7C+OOP+%7C+Systems+Programming)](https://abd-abdullah83.github.io)
 
 <br/>
 
