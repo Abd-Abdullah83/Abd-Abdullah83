@@ -95,15 +95,17 @@ public:
 
 | &nbsp; | Project | Description | Stack | Type |
 |:---:|:---|:---|:---:|:---:|
+| 🕵️ | **[NeuralEye](https://abd-abdullah83.github.io/NeuralEye/)** | Client-side AI deepfake & misinformation detector — image/audio/batch analysis, browser extension, multilingual | `JS` `Gemini API` `HuggingFace` | AI · Web |
 | ♛ | **[Chess Master](https://github.com/Abd-Abdullah83/Chess-AI-Puzzles-)** | Full chess engine — HvH · HvAI · Minimax AI (Easy/Med/Hard) · 4 themes · Puzzle mode with ELO rating · sound FX | `C++` `SFML` `AI` | C++ · AI |
+| ✦ | **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · notes · voice input · text-to-speech · persistent memory | `JS` `Gemini API` | AI · Web |
 | 🅿️ | **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | 3-level parking with raw `char****` pointers · Euclidean-distance slot allocation · SFML GUI · live occupancy | `C++` `SFML` | C++ |
 | 🏗️ | **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | ParkingBlock class · Rule of Five · vehicle transfer/merge · file-driven layout · 13-option menu | `C++` `OOP` | C++ |
+| 🤖 | **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · Open-Meteo weather · timer · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` | AI · Web |
 | 🔢 | **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML build · recursive backtracking solver · hints · Easy/Medium/Hard difficulty | `C++` `SFML` | C++ |
 | ❌ | **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 board themes · sound effects · win/draw detection | `C++` `SFML` | C++ |
 | 🌐 | **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site · fake news, cyberbullying · 8-question interactive quiz | `HTML` `CSS` `JS` | Web |
 | 💊 | **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescription upload · cart/checkout · patient dashboard · DRAP compliance | `HTML` `CSS` `JS` | Web |
-| ✦ | **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · notes · voice input · text-to-speech · persistent memory | `JS` `Gemini API` | AI · Web |
-| 🤖 | **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · Open-Meteo weather · timer · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` | AI · Web |
+
 
 </div>
 
