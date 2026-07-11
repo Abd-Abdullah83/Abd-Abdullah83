@@ -215,6 +215,7 @@ public:
 [![GitHub](https://img.shields.io/badge/GitHub-Abd--Abdullah83-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abd-Abdullah83)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-tahir-ds)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20Me-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/abdullaht_143)
+[![YouTube](https://img.shields.io/badge/YouTube-DigiZenith-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@digizenith)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullaht4000@gmail.com)
 
 <br/>
