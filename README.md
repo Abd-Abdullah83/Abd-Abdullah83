@@ -29,7 +29,7 @@ public:
     string degree     = "BS Data Science (2025–2029)";
     float  cgpa       = 3.56f;
     string skills[]   = { "C++", "OOP", "SFML", "Python", "Data Analytics",
-                          "Gemini AI", "HTML/CSS/JS", "Algorithms" };
+                          "Next.js", "FastAPI", "Gemini AI", "PostgreSQL" };
     int    projects   = 13;
     int    certs      = 12;
     bool   openToWork = true;
