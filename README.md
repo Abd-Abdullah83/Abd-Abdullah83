@@ -121,9 +121,9 @@ public:
 | 🔷 OOP & C++ | 🔶 Algorithms | 🟢 Systems | 🟣 AI & Web |
 |:---:|:---:|:---:|:---:|
 | Classes & Encapsulation | Minimax + Alpha-Beta | Dynamic Memory `char****` | Gemini API Integration |
-| Inheritance & Polymorphism | Backtracking Solver | Manual Alloc / Free | Web Speech API |
-| Rule of Five | Sorting & Searching | File I/O | HTML · CSS · JS SPAs |
-| Operator Overloading | Euclidean Distance | SFML GUI & Audio | Data Analytics |
+| Inheritance & Polymorphism | Backtracking Solver | Manual Alloc / Free | Next.js + FastAPI |
+| Rule of Five | Sorting & Searching | File I/O | REST API Design |
+| Operator Overloading | Euclidean Distance | SFML GUI & Audio | PostgreSQL + Prisma |
 
 </div>
 
