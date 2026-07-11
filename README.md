@@ -104,7 +104,10 @@ public:
 | 🔢 | **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML build · recursive backtracking solver · hints · Easy/Medium/Hard difficulty | `C++` `SFML` | C++ |
 | ❌ | **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 board themes · sound effects · win/draw detection | `C++` `SFML` | C++ |
 | 🌐 | **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site · fake news, cyberbullying · 8-question interactive quiz | `HTML` `CSS` `JS` | Web |
+| 🤵 | **[BinDawood](https://abd-abdullah83.github.io/BinDawood/)** | Groom-wear boutique storefront — responsive category sliders, product showcase | `HTML` `CSS` `JS` | Web · Business |
+| 👰 | **[Corset-Atelier](https://abd-abdullah83.github.io/Corset-Atelier/)** | Bridal & women's fashion boutique storefront — responsive product showcase | `HTML` `CSS` `JS` | Web · Business |
 | 💊 | **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescription upload · cart/checkout · patient dashboard · DRAP compliance | `HTML` `CSS` `JS` | Web |
+
 
 
 </div>
