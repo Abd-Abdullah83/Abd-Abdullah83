@@ -30,7 +30,7 @@ public:
     float  cgpa       = 3.56f;
     string skills[]   = { "C++", "OOP", "SFML", "Python", "Data Analytics",
                           "Next.js", "FastAPI", "Gemini AI", "PostgreSQL" };
-    int    projects   = 12;
+    int    projects   = 15;
     int    certs      = 12;
     bool   openToWork = true;
     string goal       = "Build a company of lasting impact";
@@ -57,7 +57,7 @@ public:
 
 | 🎓 CGPA | 📁 Projects | 🏅 Certificates | 🤖 AI Score |
 |:---:|:---:|:---:|:---:|
-| **3.56** | **12+** | **12** | **93%** |
+| **3.56** | **15+** | **12** | **93%** |
 
 </div>
 
@@ -197,7 +197,7 @@ public:
 
 ## 🏆 Achievements
 
-![Projects](https://img.shields.io/badge/Projects-12+-00ccee?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a)
+![Projects](https://img.shields.io/badge/Projects-15+-00ccee?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a)
 ![Certs](https://img.shields.io/badge/Certificates-12-ffcc00?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
 ![Language](https://img.shields.io/badge/Primary_Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0a0f1a)
 ![AI](https://img.shields.io/badge/AI_Score-93%25-9B59B6?style=for-the-badge&logoColor=white&labelColor=0a0f1a)
