@@ -257,8 +257,7 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 
 ## 🏆 GitHub Trophies
 
-![trophy](https://github-profile-trophy.vercel.app/?username=Abd-Abdullah83&theme=tokyonight&no-frame=true&margin-w=8&row=1&column=7)
-
+![trophy](https://github-profile-trophy.vercel.app/?username=Abd-Abdullah83&theme=onedark&no-frame=true&margin-w=8&row=1&column=7)
 </div>
 
 ---
