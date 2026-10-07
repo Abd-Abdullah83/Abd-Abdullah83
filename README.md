@@ -50,18 +50,8 @@ public:
 
 ## 🚧 Currently Building
 
-<table>
-<tr>
-<td width="100%">
-
-**Nexora — Multi-Vendor Marketplace**
-`Next.js 14` · `FastAPI` · `PostgreSQL` · `Redis` · `Prisma`
-
-A full-stack e-commerce platform with seller dashboards, cart/checkout flows, and a vendor management layer. In active development — not yet public.
-
-</td>
-</tr>
-</table>
+**Nexora — Multi-Vendor Marketplace** · `Next.js 14` `FastAPI` `PostgreSQL` `Redis` `Prisma`
+Full-stack e-commerce platform with seller dashboards, cart/checkout, and vendor management. In active development.
 
 <br/>
 
@@ -74,7 +64,7 @@ A full-stack e-commerce platform with seller dashboards, cart/checkout flows, an
 <td width="50%" valign="top">
 
 ### 🕵️ [NeuralEye](https://abd-abdullah83.github.io/NeuralEye/)
-Client-side AI deepfake & misinformation detector — image, audio and batch analysis, browser extension, multilingual support. No server, no data leaves the browser.
+Client-side AI deepfake & misinformation detector — image, audio, batch analysis, browser extension, multilingual. No server, no data leaves the browser.
 
 `JavaScript` `Gemini API` `HuggingFace` `Sightengine`
 
@@ -82,7 +72,7 @@ Client-side AI deepfake & misinformation detector — image, audio and batch ana
 <td width="50%" valign="top">
 
 ### ♛ [Chess Master](https://github.com/Abd-Abdullah83/Chess-AI-Puzzles-)
-Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties), 4 visual themes, puzzle mode with ELO rating, sound FX.
+Full chess engine — HvH/HvAI with Minimax (3 difficulties), 4 themes, puzzle mode with ELO rating, sound FX.
 
 `C++` `SFML` `Minimax AI`
 
@@ -101,7 +91,7 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 | Project | Description | Stack |
 |:---|:---|:---:|
 | **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · notes · voice input · text-to-speech · persistent memory | `JS` `Gemini API` |
-| **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · Open-Meteo weather · timer · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` |
+| **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` |
 
 </details>
 
@@ -113,10 +103,10 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 
 | Project | Description | Stack |
 |:---|:---|:---:|
-| **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | 3-level parking with raw `char****` pointers · Euclidean-distance slot allocation · SFML GUI · live occupancy | `C++` `SFML` |
-| **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | ParkingBlock class · Rule of Five · vehicle transfer/merge · file-driven layout · 13-option menu | `C++` `OOP` |
-| **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML build · recursive backtracking solver · hints · 3 difficulties | `C++` `SFML` |
-| **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 board themes · sound effects · win/draw detection | `C++` `SFML` |
+| **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | 3-level parking · raw `char****` pointers · Euclidean-distance allocation · SFML GUI | `C++` `SFML` |
+| **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | ParkingBlock class · Rule of Five · vehicle merge · file-driven layout | `C++` `OOP` |
+| **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML · recursive backtracking solver · 3 difficulties | `C++` `SFML` |
+| **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 themes · sound FX | `C++` `SFML` |
 
 </details>
 
@@ -128,10 +118,10 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 
 | Project | Description | Stack |
 |:---|:---|:---:|
-| **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site · fake news, cyberbullying · 8-question interactive quiz | `HTML` `CSS` `JS` |
-| **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescription upload · cart/checkout · patient dashboard · DRAP compliance | `HTML` `CSS` `JS` |
-| **[BinDawood](https://abd-abdullah83.github.io/BinDawood/)** | Groom-wear boutique storefront — responsive category sliders, product showcase | `HTML` `CSS` `JS` |
-| **[Corset-Atelier](https://abd-abdullah83.github.io/Corset-Atelier/)** | Bridal & women's fashion boutique storefront — responsive product showcase | `HTML` `CSS` `JS` |
+| **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness · fake news, cyberbullying quiz | `HTML` `CSS` `JS` |
+| **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescriptions · cart/checkout · DRAP compliance | `HTML` `CSS` `JS` |
+| **[BinDawood](https://abd-abdullah83.github.io/BinDawood/)** | Groom-wear boutique storefront | `HTML` `CSS` `JS` |
+| **[Corset-Atelier](https://abd-abdullah83.github.io/Corset-Atelier/)** | Bridal & women's fashion boutique storefront | `HTML` `CSS` `JS` |
 
 </details>
 
@@ -165,23 +155,15 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 </details>
 
 <details>
-<summary><b>Data Science</b></summary>
+<summary><b>Data Science & Tools</b></summary>
 <br/>
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>Game Dev & Tools</b></summary>
-<br/>
-
 ![SFML](https://img.shields.io/badge/SFML-2.x-8CC445?style=for-the-badge&logo=sfml&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 </details>
 
@@ -248,25 +230,6 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 <br/>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Abd-Abdullah83&theme=tokyonight&hide_border=true&background=04060a&stroke=00ccee&ring=ffcc00&fire=ffcc00&currStreakNum=00ccee&sideNums=c0dde8&currStreakLabel=ffcc00&sideLabels=c0dde8&dates=1a3a4a)
-
-</div>
-
----
-
-<div align="center">
-
-## 🏆 GitHub Trophies
-
-![trophy](https://github-profile-trophy.vercel.app/?username=Abd-Abdullah83&theme=onedark&no-frame=true&margin-w=8&row=1&column=7)
-</div>
-
----
-
-<div align="center">
-
-## 📈 Contribution Graph
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abd-Abdullah83&theme=tokyo-night&hide_border=true&bg_color=04060a&color=00ccee&line=ffcc00&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
