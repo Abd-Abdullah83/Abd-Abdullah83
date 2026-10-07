@@ -241,9 +241,9 @@ Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties),
 
 ## 📊 GitHub Stats
 
-<img height="170" src="https://github-stats-extended-dun.vercel.app/api?username=Abd-Abdullah83&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=04060a&title_color=00ccee&icon_color=ffcc00&text_color=c0dde8&ring_color=ffcc00" />
+<img height="170" src="https://github-stats-extended.vercel.app/api?username=Abd-Abdullah83&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=04060a&title_color=00ccee&icon_color=ffcc00&text_color=c0dde8&ring_color=ffcc00" />
 &nbsp;
-<img height="170" src="https://github-stats-extended-dun.vercel.app/api/top-langs/?username=Abd-Abdullah83&layout=compact&theme=tokyonight&hide_border=true&bg_color=04060a&title_color=00ccee&text_color=c0dde8&langs_count=6" />
+<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Abd-Abdullah83&layout=compact&theme=tokyonight&hide_border=true&bg_color=04060a&title_color=00ccee&text_color=c0dde8&langs_count=6" />
 
 <br/>
 
