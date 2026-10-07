@@ -1,22 +1,28 @@
 <div align="center">
 
-[![Name](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=800&size=56&duration=3000&pause=2000&color=39FF14&center=true&vCenter=true&width=720&height=100&lines=ABDULLAH+TAHIR)](https://abd-abdullah83.github.io)
+[![Name](https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=52&duration=3500&pause=2000&color=FFD700&center=true&vCenter=true&width=720&height=100&lines=Abdullah)](https://abd-abdullah83.github.io)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=39FF14&center=true&vCenter=true&width=700&lines=BS+Data+Science+%40+FAST+NUCES+Lahore;Full-Stack+Dev+%E2%80%A2+Next.js+%E2%80%A2+FastAPI+%E2%80%A2+AI;Building+Nexora+%E2%80%94+Multi-Vendor+Marketplace)](https://abd-abdullah83.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=1000&color=00CCEE&center=true&vCenter=true&width=700&lines=BS+Data+Science+%40+FAST+NUCES+Lahore;Full-Stack+Dev+%7C+Next.js+%7C+FastAPI+%7C+AI+Systems;Building+Nexora+%E2%80%94+Multi-Vendor+Marketplace;C%2B%2B+%7C+SFML+%7C+OOP+%7C+Systems+Programming)](https://abd-abdullah83.github.io)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-abd--abdullah83.github.io-39FF14?style=for-the-badge&labelColor=000000)](https://abd-abdullah83.github.io)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-39FF14?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=000000)](https://linkedin.com/in/abdullah-tahir-ds)
-[![Fiverr](https://img.shields.io/badge/FIVERR-HIRE_ME-39FF14?style=for-the-badge&logo=fiverr&logoColor=39FF14&labelColor=000000)](https://www.fiverr.com/abdullaht_143)
-[![YouTube](https://img.shields.io/badge/YOUTUBE-DIGIZENITH-39FF14?style=for-the-badge&logo=youtube&logoColor=39FF14&labelColor=000000)](https://youtube.com/@digizenith)
-[![Email](https://img.shields.io/badge/EMAIL-CONTACT-39FF14?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=000000)](mailto:abdullaht4000@gmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-abd--abdullah83.github.io-00ffe7?style=for-the-badge&labelColor=020818)](https://abd-abdullah83.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdullah--tahir--ds-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-tahir-ds)
+[![Fiverr](https://img.shields.io/badge/Fiverr-abdullaht__143-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/abdullaht_143)
+[![YouTube](https://img.shields.io/badge/YouTube-DigiZenith-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@digizenith)
+[![Email](https://img.shields.io/badge/Email-abdullaht4000%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullaht4000@gmail.com)
+
+<br/>
+
+![Projects](https://img.shields.io/badge/Projects-12+-00ccee?style=flat-square&labelColor=0a0f1a)
+![Certs](https://img.shields.io/badge/Certificates-12-ffcc00?style=flat-square&labelColor=0a0f1a)
+![CGPA](https://img.shields.io/badge/CGPA-3.56-ee3333?style=flat-square&labelColor=0a0f1a)
+![Building](https://img.shields.io/badge/🚧_Currently_Building-Nexora-9B59B6?style=flat-square&labelColor=0a0f1a)
+![Status](https://img.shields.io/badge/Status-Open_to_Work-00ccee?style=flat-square&labelColor=0a0f1a)
 
 </div>
 
 <br/>
-
-![divider](https://img.shields.io/badge/-%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC%E2%96%AC-39FF14?style=flat-square&labelColor=39FF14)
 
 ```cpp
 class Developer {
@@ -34,31 +40,24 @@ public:
 
     void introduce() {
         cout << "I don't just write code — I architect systems." << endl;
+        cout << "From chess engines to AI assistants, every project" << endl;
+        cout << "is a logic puzzle I build from scratch." << endl;
     }
 };
 ```
 
-<div align="center">
-
-![Projects](https://img.shields.io/badge/PROJECTS-12+-39FF14?style=for-the-badge&labelColor=000000)
-![Certs](https://img.shields.io/badge/CERTS-12-39FF14?style=for-the-badge&labelColor=000000)
-![CGPA](https://img.shields.io/badge/CGPA-3.56-39FF14?style=for-the-badge&labelColor=000000)
-![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-39FF14?style=for-the-badge&labelColor=000000)
-
-</div>
-
 <br/>
 
-## ⚡ CURRENTLY BUILDING
+## 🚧 Currently Building
 
 <table>
 <tr>
 <td width="100%">
 
-### Nexora — Multi-Vendor Marketplace
-`Next.js 14` `FastAPI` `PostgreSQL` `Redis` `Prisma`
+**Nexora — Multi-Vendor Marketplace**
+`Next.js 14` · `FastAPI` · `PostgreSQL` · `Redis` · `Prisma`
 
-Full-stack e-commerce platform with seller dashboards, cart/checkout, and vendor management. **In active development.**
+A full-stack e-commerce platform with seller dashboards, cart/checkout flows, and a vendor management layer. In active development — not yet public.
 
 </td>
 </tr>
@@ -66,14 +65,16 @@ Full-stack e-commerce platform with seller dashboards, cart/checkout, and vendor
 
 <br/>
 
-## 🚀 FLAGSHIP PROJECTS
+<details open>
+<summary><h2>🚀 Flagship Projects</h2></summary>
+<br/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🕵️ [NeuralEye](https://abd-abdullah83.github.io/NeuralEye/)
-Client-side AI deepfake & misinformation detector. Image, audio, batch analysis. Browser extension. Multilingual. **Zero server dependency.**
+Client-side AI deepfake & misinformation detector — image, audio and batch analysis, browser extension, multilingual support. No server, no data leaves the browser.
 
 `JavaScript` `Gemini API` `HuggingFace` `Sightengine`
 
@@ -81,7 +82,7 @@ Client-side AI deepfake & misinformation detector. Image, audio, batch analysis.
 <td width="50%" valign="top">
 
 ### ♛ [Chess Master](https://github.com/Abd-Abdullah83/Chess-AI-Puzzles-)
-Full chess engine. HvH / HvAI with Minimax across 3 difficulties. 4 themes. Puzzle mode with ELO rating.
+Full chess engine — Human vs Human, Human vs AI with Minimax (3 difficulties), 4 visual themes, puzzle mode with ELO rating, sound FX.
 
 `C++` `SFML` `Minimax AI`
 
@@ -89,71 +90,109 @@ Full chess engine. HvH / HvAI with Minimax across 3 difficulties. 4 themes. Puzz
 </tr>
 </table>
 
-<br/>
-
-<details>
-<summary><b>🤖 AI & FULL-STACK PROJECTS</b></summary>
-<br/>
-
-| Project | Description | Stack |
-|:---|:---|:---:|
-| **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · voice input · persistent memory | `JS` `Gemini API` |
-| **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · smart commands | `JS` `Gemini API` |
-
 </details>
 
+<br/>
+
 <details>
-<summary><b>⚙️ C++ SYSTEMS & GAMES</b></summary>
+<summary><h2>🤖 AI & Full-Stack Projects</h2></summary>
 <br/>
 
 | Project | Description | Stack |
 |:---|:---|:---:|
-| **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | Raw `char****` pointers · Euclidean-distance allocation · SFML GUI | `C++` `SFML` |
-| **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | Rule of Five · vehicle merge · file-driven layout | `C++` `OOP` |
-| **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Recursive backtracking solver · 3 difficulties | `C++` `SFML` |
-| **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Dual build · 4 themes · sound FX | `C++` `SFML` |
-
-</details>
-
-<details>
-<summary><b>🌐 WEB & BUSINESS SITES</b></summary>
-<br/>
-
-| Project | Description | Stack |
-|:---|:---|:---:|
-| **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site | `HTML` `CSS` `JS` |
-| **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages, DRAP compliance | `HTML` `CSS` `JS` |
-| **[BinDawood](https://abd-abdullah83.github.io/BinDawood/)** | Groom-wear boutique storefront | `HTML` `CSS` `JS` |
-| **[Corset-Atelier](https://abd-abdullah83.github.io/Corset-Atelier/)** | Bridal & women's fashion boutique storefront | `HTML` `CSS` `JS` |
+| **[Nova AI Assistant](https://abd-abdullah83.github.io/Nova/)** | Gemini 2.0 Flash chat · weather · tasks · notes · voice input · text-to-speech · persistent memory | `JS` `Gemini API` |
+| **[Personal AI Assistant](https://abd-abdullah83.github.io/Personal-Ai/)** | Gemini 2.5 Flash · Web Speech API · Open-Meteo weather · timer · smart commands for calls, maps, WhatsApp | `JS` `Gemini API` |
 
 </details>
 
 <br/>
 
-## 🛠️ TECH STACK
+<details>
+<summary><h2>⚙️ C++ Systems & Games</h2></summary>
+<br/>
 
-![C++](https://img.shields.io/badge/C%2B%2B-39FF14?style=for-the-badge&logo=cplusplus&logoColor=39FF14&labelColor=000000)
-![Python](https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=39FF14&labelColor=000000)
-![JavaScript](https://img.shields.io/badge/JavaScript-39FF14?style=for-the-badge&logo=javascript&logoColor=39FF14&labelColor=000000)
-![Next.js](https://img.shields.io/badge/Next.js-39FF14?style=for-the-badge&logo=nextdotjs&logoColor=39FF14&labelColor=000000)
-![FastAPI](https://img.shields.io/badge/FastAPI-39FF14?style=for-the-badge&logo=fastapi&logoColor=39FF14&labelColor=000000)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-39FF14?style=for-the-badge&logo=postgresql&logoColor=39FF14&labelColor=000000)
-![Prisma](https://img.shields.io/badge/Prisma-39FF14?style=for-the-badge&logo=prisma&logoColor=39FF14&labelColor=000000)
-![Redis](https://img.shields.io/badge/Redis-39FF14?style=for-the-badge&logo=redis&logoColor=39FF14&labelColor=000000)
-![Gemini](https://img.shields.io/badge/Gemini_API-39FF14?style=for-the-badge&logo=googlegemini&logoColor=39FF14&labelColor=000000)
-![Pandas](https://img.shields.io/badge/Pandas-39FF14?style=for-the-badge&logo=pandas&logoColor=39FF14&labelColor=000000)
-![NumPy](https://img.shields.io/badge/NumPy-39FF14?style=for-the-badge&logo=numpy&logoColor=39FF14&labelColor=000000)
-![SFML](https://img.shields.io/badge/SFML-39FF14?style=for-the-badge&logoColor=39FF14&labelColor=000000)
-![Git](https://img.shields.io/badge/Git-39FF14?style=for-the-badge&logo=git&logoColor=39FF14&labelColor=000000)
+| Project | Description | Stack |
+|:---|:---|:---:|
+| **[Smart Parking — Dynamic](https://github.com/Abd-Abdullah83/Parking-System)** | 3-level parking with raw `char****` pointers · Euclidean-distance slot allocation · SFML GUI · live occupancy | `C++` `SFML` |
+| **[Smart Parking — OOP](https://github.com/Abd-Abdullah83/Parking-System-OOP)** | ParkingBlock class · Rule of Five · vehicle transfer/merge · file-driven layout · 13-option menu | `C++` `OOP` |
+| **[Sudoku](https://github.com/Abd-Abdullah83/Sudoku)** | Console + SFML build · recursive backtracking solver · hints · 3 difficulties | `C++` `SFML` |
+| **[Tic-Tac-Toe](https://github.com/Abd-Abdullah83/TicTacToe-game)** | Console + SFML dual build · 4 board themes · sound effects · win/draw detection | `C++` `SFML` |
+
+</details>
 
 <br/>
 
-## 💡 CORE SKILLS
+<details>
+<summary><h2>🌐 Web & Business Sites</h2></summary>
+<br/>
 
-| OOP & C++ | Algorithms | Systems | AI & Web |
+| Project | Description | Stack |
+|:---|:---|:---:|
+| **[DigiSmart Lahore](https://abd-abdullah83.github.io/digital-literacy)** | Digital literacy & PECA 2016 awareness site · fake news, cyberbullying · 8-question interactive quiz | `HTML` `CSS` `JS` |
+| **[MediPharm](https://abd-abdullah83.github.io/Pharmacy/)** | Pakistan pharmacy SPA — 10 pages · prescription upload · cart/checkout · patient dashboard · DRAP compliance | `HTML` `CSS` `JS` |
+| **[BinDawood](https://abd-abdullah83.github.io/BinDawood/)** | Groom-wear boutique storefront — responsive category sliders, product showcase | `HTML` `CSS` `JS` |
+| **[Corset-Atelier](https://abd-abdullah83.github.io/Corset-Atelier/)** | Bridal & women's fashion boutique storefront — responsive product showcase | `HTML` `CSS` `JS` |
+
+</details>
+
+<br/>
+
+## 🛠️ Tech Stack
+
+<details open>
+<summary><b>Languages & Core</b></summary>
+<br/>
+
+![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Full-Stack & AI</b></summary>
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Data Science</b></summary>
+<br/>
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Game Dev & Tools</b></summary>
+<br/>
+
+![SFML](https://img.shields.io/badge/SFML-2.x-8CC445?style=for-the-badge&logo=sfml&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+</details>
+
+<br/>
+
+## 💡 Core Skills
+
+| 🔷 OOP & C++ | 🔶 Algorithms | 🟢 Systems | 🟣 AI & Web |
 |:---:|:---:|:---:|:---:|
-| Classes & Encapsulation | Minimax + Alpha-Beta | Dynamic Memory | Gemini API |
-| Inheritance & Polymorphism | Backtracking | Manual Alloc/Free | Next.js + FastAPI |
+| Classes & Encapsulation | Minimax + Alpha-Beta | Dynamic Memory `char****` | Gemini API Integration |
+| Inheritance & Polymorphism | Backtracking Solver | Manual Alloc / Free | Next.js + FastAPI |
 | Rule of Five | Sorting & Searching | File I/O | REST API Design |
 | Operator Overloading | Euclidean Distance | SFML GUI & Audio | PostgreSQL + Prisma |
 
@@ -161,38 +200,38 @@ Full chess engine. HvH / HvAI with Minimax across 3 difficulties. 4 themes. Puzz
 
 <div align="center">
 
-## ♟️ MY CONFIDENCE — IN CHESS FORM
+## ♟️ My Confidence — In Chess Form
 
-*1 pawn · 1 knight · 1 king &nbsp;**VS**&nbsp; 1 queen · 2 rooks*
+*1 pawn · 1 knight · 1 king &nbsp;**vs**&nbsp; 1 queen · 2 rooks*
 
-**The pawn advances one step — and wins.**
+*The pawn advances one step — and wins.*
 
 [![Chess Animation Preview](https://raw.githubusercontent.com/Abd-Abdullah83/Abd-Abdullah83/main/chess-preview.svg)](https://abd-abdullah83.github.io/Abd-Abdullah83/chess-confidence.html)
 
-*"Outgunned. Not outplayed."*
+*"Outgunned. Not outplayed." — The pawn that became a queen.*
 
 </div>
 
 <br/>
 
 <details>
-<summary><b>🏅 CERTIFICATIONS (12)</b></summary>
+<summary><h2>🏅 Certifications (12)</h2></summary>
 <br/>
 
-| Certificate | Issuer | Score |
-|:---|:---|:---:|
-| Digital Skills: Artificial Intelligence | Accenture / FutureLearn | **93%** |
-| IT Skills For Business | Alison | **96%** |
-| Microsoft Word 2010 & 2013 | Alison | **92%** |
-| Data Analytics & Business Intelligence | DigiSkills.pk | ✅ |
-| Startup Strategies & Entrepreneurship | DigiSkills.pk | ✅ |
-| Data Science & Analytics | HP LIFE | ✅ |
-| Strategic Planning | HP LIFE | ✅ |
-| Success Mindset | HP LIFE | ✅ |
-| Cybersecurity | ADBI Institute | ✅ |
-| Climate Change & Sovereign Risk | ADBI Institute | ✅ |
-| Certificate of Merit | Punjab Colleges | ✅ |
-| Robotics — Participation | Punjab Colleges | ✅ |
+| Badge | Certificate | Issuer | Score |
+|:---:|:---|:---|:---:|
+| 🤖 | Digital Skills: Artificial Intelligence | Accenture / FutureLearn | **93%** |
+| 💼 | IT Skills For Business | Alison — CPD Certified | **96%** |
+| 📝 | Microsoft Word 2010 & 2013 | Alison — CPD Certified | **92%** |
+| 📊 | Data Analytics & Business Intelligence | DigiSkills.pk — Govt. of Pakistan | ✅ |
+| 🚀 | Startup Strategies & Entrepreneurship | DigiSkills.pk — Govt. of Pakistan | ✅ |
+| 💡 | Data Science & Analytics | HP LIFE — HP Foundation | ✅ |
+| 📈 | Strategic Planning | HP LIFE — HP Foundation | ✅ |
+| 🧠 | Success Mindset | HP LIFE — HP Foundation | ✅ |
+| 🔐 | Cybersecurity | ADBI Institute | ✅ |
+| 🌍 | Climate Change & Sovereign Risk | ADBI Institute | ✅ |
+| 🏆 | Certificate of Merit — Academic Excellence | Punjab Colleges | ✅ |
+| 🤖 | Robotics — Certificate of Participation | Punjab Colleges | ✅ |
 
 </details>
 
@@ -200,15 +239,15 @@ Full chess engine. HvH / HvAI with Minimax across 3 difficulties. 4 themes. Puzz
 
 <div align="center">
 
-## 📊 GITHUB STATS
+## 📊 GitHub Stats
 
-<img height="170" src="https://github-stats-extended.vercel.app/api?username=Abd-Abdullah83&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=000000&title_color=39FF14&icon_color=39FF14&text_color=ffffff&ring_color=39FF14" />
+<img height="170" src="https://github-stats-extended.vercel.app/api?username=Abd-Abdullah83&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=04060a&title_color=00ccee&icon_color=ffcc00&text_color=c0dde8&ring_color=ffcc00" />
 &nbsp;
-<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Abd-Abdullah83&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=39FF14&text_color=ffffff&langs_count=6" />
+<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Abd-Abdullah83&layout=compact&theme=tokyonight&hide_border=true&bg_color=04060a&title_color=00ccee&text_color=c0dde8&langs_count=6" />
 
 <br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Abd-Abdullah83&theme=dark&hide_border=true&background=000000&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=39FF14&sideLabels=39FF14)
+![GitHub Streak](https://streak-stats.demolab.com?user=Abd-Abdullah83&theme=tokyonight&hide_border=true&background=04060a&stroke=00ccee&ring=ffcc00&fire=ffcc00&currStreakNum=00ccee&sideNums=c0dde8&currStreakLabel=ffcc00&sideLabels=c0dde8&dates=1a3a4a)
 
 </div>
 
@@ -216,10 +255,29 @@ Full chess engine. HvH / HvAI with Minimax across 3 difficulties. 4 themes. Puzz
 
 <div align="center">
 
-**"Every complex system is just simple logic, stacked carefully."**
+## 🏆 GitHub Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=Abd-Abdullah83&theme=onedark&no-frame=true&margin-w=8&row=1&column=7)
+</div>
+
+---
+
+<div align="center">
+
+## 📈 Contribution Graph
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abd-Abdullah83&theme=tokyo-night&hide_border=true&bg_color=04060a&color=00ccee&line=ffcc00&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Every complex system is just simple logic, stacked carefully."*
 
 <br/>
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=000000&color=39FF14)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Abd-Abdullah83.Abd-Abdullah83&labelColor=0a0f1a&color=00ccee)
 
 </div>
